@@ -55,14 +55,14 @@ int main(int argc, char *argv[]) {
 				
 			case 2:
 				
-				printf("\nIngrese la cantidad de elementos del primer conjunto: (Ejemplo:{1,12,4,56}=4) \n");
+				printf("\nIngrese la cantidad de elementos del primer cartesiano |A|: (Ejemplo:|A|={1,12,4,56}=4 elementos) \n");
 				scanf("%i",&cardinal1);
 				
-				printf("\nIngrese la cantidad de elementos del segundo conjunto: (Ejemplo:{1,12}=2) \n");
+				printf("\nIngrese la cantidad de elementos del segundo Cartesiano |B|: (Ejemplo:|B|={1,12}=2 elementos) \n");
 				scanf("%i",&cardinal2);
 				
-				combinaciones=cardinal1*cardinal2;
-				printf("\nLa cantidad total de las posibles combinaciones entre el primer conjunto y el segundo es de: %i",combinaciones);
+				combinaciones=2^(cardinal1*cardinal2);
+				printf("\nLa cardinalidad total de las posibles combinaciones del producto cartesiano es de: %i",combinaciones);
 				
 				break;
 				
