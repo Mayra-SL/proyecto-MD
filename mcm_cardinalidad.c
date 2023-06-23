@@ -61,8 +61,8 @@ int main(int argc, char *argv[]) {
 				printf("\nIngrese la cantidad de elementos del segundo Cartesiano |B|: (Ejemplo:|B|={1,12}=2 elementos) \n");
 				scanf("%i",&cardinal2);
 				
-				combinaciones=2^(cardinal1*cardinal2);
-				printf("\nLa cardinalidad total de las posibles combinaciones del producto cartesiano es de: %i",combinaciones);
+				combinaciones=(cardinal1*cardinal2);
+				printf("\nLa cardinalidad total de las posibles combinaciones del producto cartesiano |A|•|B| es de: %i",combinaciones);
 				
 				break;
 				
